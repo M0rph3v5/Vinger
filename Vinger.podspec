@@ -3,10 +3,12 @@ Pod::Spec.new do |s|
   s.version      = "0.1.0"
   s.license      = "MIT"
 
-  s.summary      = "A simple library which shows your fingers on the screen, helps with demo's and presentations so people actually have a clue where you are clicking."
+  s.summary      = "A simple library which shows your fingers on the screen, helps with demo's and presentations so people actually have a clue where you are tapping."
 
   s.description  = <<-DESC
-                    A simple library which shows your fingers on the screen, helps with demo's and presentations so people actually have a clue where you are clicking.
+                    A simple library which shows your fingers on the screen, helps with demo's and presentations so people actually have a clue where you are tapping.
+
+                    Be gone questions like 'wait where did you tap just now?' \o/
                    DESC
 
   s.authors           = { "Benjamin de Jager" => "me@m0rph3v5.com" }

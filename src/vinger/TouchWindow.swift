@@ -10,7 +10,7 @@ import UIKit
 
 public class TouchWindow : UIWindow {
   var touchViews: [Int:TouchView] = [:]
-  var touchViewClass: TouchView.Type = DoubleCircleTouchView.self
+  public var touchViewClass: TouchView.Type = DoubleCircleTouchView.self
   
   override public func sendEvent(event: UIEvent) {
     super.sendEvent(event)

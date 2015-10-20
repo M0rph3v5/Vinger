@@ -14,10 +14,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
 
-
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     
-    window = TouchWindow()
+    let twindow = TouchWindow()
+    twindow.touchViewClass = DoubleCircleTouchView.self
+    window = twindow
     window?.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
     
     return true
