@@ -1,0 +1,16 @@
+PODS:
+  - Vinger (0.1.0):
+    - Vinger/Core (= 0.1.0)
+  - Vinger/Core (0.1.0)
+
+DEPENDENCIES:
+  - Vinger (from `../..`)
+
+EXTERNAL SOURCES:
+  Vinger:
+    :path: "../.."
+
+SPEC CHECKSUMS:
+  Vinger: 9afd660ae6045f11daa69436bfa64d649d2fd377
+
+COCOAPODS: 0.38.2
