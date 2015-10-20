@@ -18,7 +18,7 @@ Unfortunately as is this is the only way to have a custom class on your window a
 Customization
 ------------
 
-When you run the project you should see black representations right under your fingers on the screen, to customize this view all you need to do is create a subclass of TouchView like this:
+When you run the project you should see black representations right under your fingers on the screen, to customize this view all you need to do is create a subclass of TouchView and do your custom rendering in the drawrect. Or add imageviews / whatever you want to show :)
 
 ```swift
 
