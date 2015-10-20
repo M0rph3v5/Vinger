@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "0.1.0"
   s.license      = "MIT"
 
-  s.summary      = "A simple library which shows your fingers on the screen, helps with demo's and presentations so people actually have a clue where you are tapping."
+  s.summary      = "A simple library which shows your fingers on the screen, be gone questions like 'wait where did you tap just now?' \o/"
 
   s.description  = <<-DESC
                     A simple library which shows your fingers on the screen, helps with demo's and presentations so people actually have a clue where you are tapping.
