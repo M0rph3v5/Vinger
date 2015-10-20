@@ -15,6 +15,9 @@ window?.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiate
 
 Unfortunately as is this is the only way to have a custom class on your window and thus you need to re set the rootViewController. Make sure to check if your storyboard is named "Main" or something different.
 
+Customization
+------------
+
 When you run the project you should see black representations right under your fingers on the screen, to customize this view all you need to do is create a subclass of TouchView like this:
 
 ```swift
