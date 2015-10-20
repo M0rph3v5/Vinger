@@ -1,6 +1,6 @@
 
 # Vinger
-A simple library which shows your fingers on the screen, helps with demo's and presentations so people actually have a clue where you are tapping.
+A simple iOS library which shows your fingers on the screen, helps with demo's and presentations so people actually have a clue where you are tapping.
 
 <img src="https://dl.dropboxusercontent.com/u/911564/noes.gif"/>
 
